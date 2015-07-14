@@ -2,7 +2,6 @@ def SieveOfEratosthenes(limit):
 	numbers = [x for x in range(2, limit + 1)] 
 	primes = [True] * (limit - 1)
 	results = []
-	start = datetime.now() 
 
 	p = 2 
 	for x in numbers:
@@ -21,4 +20,4 @@ def SieveOfEratosthenes(limit):
 			results.append(x)
 
 
-	return results, start
+	return results
