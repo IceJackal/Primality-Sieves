@@ -36,10 +36,11 @@ int main(){
     for (x=0; x<=max; x++){
         if (primes[x] == 1)
         {
-            printf("%d\n", primes[x]);
+            printf("%d\n", x);
         }
     }
 
-    system("pause");
+    /*system("pause");*/
+    return 0;
 
     }
